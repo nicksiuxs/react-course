@@ -6,6 +6,7 @@ import CounterApp from "./CounterApp.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <CounterApp value={10} />
+    <FirstApp title="Soy un titulo" />
+    {/* <CounterApp value={10} /> */}
   </StrictMode>
 );
